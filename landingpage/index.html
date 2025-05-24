@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habilidades Digitales | Aprende y Transforma tu Carrera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap " rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #004080, #0077cc);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #e65c00;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .features, .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .testimonial {
+      background: white;
+      padding: 1.5rem;
+      border-left: 5px solid #0077cc;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+    .cta-offer {
+      background: #fff3cd;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      margin: 2rem auto;
+    }
+    form input[type="text"], form input[type="email"] {
+      padding: 0.75rem;
+      width: calc(100% - 22px);
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      .btn { width: 100%; }
+    }
+  </style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX "></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>  
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Domina las Habilidades Digitales que Impulsan tu Carrera Profesional</h1>
+    <p>Cursos prácticos, impartidos por expertos, diseñados para acelerar tu crecimiento profesional en el mundo digital.</p>
+    <button class="btn">Comienza Gratis Ahora</button>
+  </header>
+
+  <!-- Sección: Ventajas -->
+  <section>
+    <h2 style="text-align:center;">¿Por qué elegirnos?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Instructores Certificados</h3>
+        <p>Aprende de profesionales con años de experiencia en el sector digital.</p>
+      </div>
+      <div class="card">
+        <h3>Contenido Actualizado</h3>
+        <p>Nuestros cursos se actualizan constantemente para mantenerse relevantes.</p>
+      </div>
+      <div class="card">
+        <h3>Aprendizaje Flexible</h3>
+        <p>Tómalos desde cualquier lugar, a tu ritmo y sin horarios fijos.</p>
+      </div>
+      <div class="card">
+        <h3>Certificado Profesional</h3>
+        <p>Obtén un certificado válido que respalda tus nuevas habilidades.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Cursos Destacados -->
+  <section>
+    <h2 style="text-align:center;">Nuestros Cursos Populares</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>Marketing Digital desde Cero</h3>
+        <p>Duración: 8 semanas</p>
+        <p>Nivel: Principiantes</p>
+        <p><strong>Precio:</strong> Desde $99 USD</p>
+        <button class="btn">Inscribirme Ahora</button>
+      </div>
+      <div class="card">
+        <h3>Desarrollo Web Full Stack</h3>
+        <p>Duración: 12 semanas</p>
+        <p>Nivel: Intermedio</p>
+        <p><strong>Precio:</strong> Desde $149 USD</p>
+        <button class="btn">Inscribirme Ahora</button>
+      </div>
+      <div class="card">
+        <h3>Análisis de Datos con Python</h3>
+        <p>Duración: 10 semanas</p>
+        <p>Nivel: Avanzado</p>
+        <p><strong>Precio:</strong> Desde $129 USD</p>
+        <button class="btn">Inscribirme Ahora</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section>
+    <h2 style="text-align:center;">Lo que dicen nuestros alumnos</h2>
+    <div class="testimonial">
+      "Gracias al curso de SEO logré posicionarme como referente en mi empresa."
+    </div>
+    <div class="testimonial">
+      "Me ayudó a cambiar completamente de carrera y empezar en el mundo digital."
+    </div>
+  </section>
+
+  <!-- Oferta Limitada -->
+  <section class="cta-offer">
+    <h2>🔥 ¡Oferta por tiempo limitado!</h2>
+    <p>Regístrate hoy y obtén acceso gratuito al curso “Introducción al Trabajo Remoto” + 20% de descuento en todos los cursos premium.</p>
+  </section>
+
+  <!-- Registro de Lead -->
+  <section>
+    <h2 style="text-align:center;">Accede a contenido exclusivo</h2>
+    <p style="text-align:center;">Ingresa tu correo para comenzar:</p>
+    <form style="max-width: 400px; margin: auto;">
+      <input type="text" placeholder="Tu nombre" required/>
+      <input type="email" placeholder="Tu correo electrónico" required/>
+      <button class="btn" type="submit">Empezar Ahora →</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 HabilidadesDigitales.com | Todos los derechos reservados.
+    <p><a href="#" style="color: #ccc; text-decoration: underline;">Términos y Condiciones</a> | <a href="#" style="color: #ccc; text-decoration: underline;">Política de Privacidad</a></p>
+  </footer>
+
+</body>
+</html>
